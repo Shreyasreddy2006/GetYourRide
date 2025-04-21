@@ -13,7 +13,7 @@ export function BikeData(){
     useEffect(() => {
         axios.get('https://api.api-ninjas.com/v1/motorcycles' ,{
             headers : {
-                'X-Api-Key' : 'ONm1iNEvhKUZJzs8Rv5ecA==szIgf5dd72iLbQto'
+                'X-Api-Key' : import.meta.env.VITE_API_NINJAS_KEY
             },
             params : {
                 'make' : `${man}`
