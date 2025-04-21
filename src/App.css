@@ -1,0 +1,121 @@
+
+/* Root background and font setup */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #003873, #4c7ce6); /* black to white */
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /* Container to control max width */
+  .Start-Container {
+    max-width: 800px;
+    padding: 40px;
+  }
+  
+  /* Heading */
+  .Start-Heading {
+    color: #f3f3f3; /* Dark blue */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Paragraph */
+  .Start-About {
+    color: #e6e8ef;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  /* Button */
+  .Start-Button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .Start-Button:hover {
+    background-color: #0d1f4a;
+    transform: scale(1.05);
+  }
+  
+.BikeDiv {
+    max-width: 400px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif; /* Updated font */
+    transition: transform 0.3s ease;
+    text-align: left;
+  }
+  
+  .BikeDiv:hover {
+    transform: translateY(-5px);
+  }
+  
+  .BikeDiv h5 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #2c3e50;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .BikeDiv p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+  }
+  
+  .BikeDiv p::before {
+    content: "•";
+    color: #2980b9;
+    font-weight: bold;
+    margin-right: 6px;
+  }
+  
+  .BikeDiv button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif; /* Match button font too */
+  }
+  
+  .BikeDiv button:hover {
+    background-color: #c0392b;
+  }
+  .BikeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
